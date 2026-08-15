@@ -144,11 +144,42 @@ html {
 /* call to action */
 
 .cta{
-    background-color: #3B82F6;
-    padding: 100px 0;
-    text-align: center;
+    padding: 100px 10%;
 }
 
+.cta-box{
+    background-color: #3B82F6;
+    border-radius: 8px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.cta-box h2{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.cta-box p{
+    font-size: 18px;
+    color: grey;
+    margin: 0;
+
+}
+
+
+.cta-box button{
+    background-color: #f9faf8;
+    color: #3B82F6;
+    font-weight: 700;
+    padding: 8px 32px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
 
 
 
